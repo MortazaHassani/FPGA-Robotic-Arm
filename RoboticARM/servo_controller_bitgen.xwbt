@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\M8\bitcounter\servo_controller.ncd
+OUTFILE=C:\M8\bitcounter\servo_controller.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=C:\M8\bitcounter
+LICENSE=WebPack
+USER_INFO=__0_0_0

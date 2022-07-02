@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Jan 11 17:30:44 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led<0>" LOCATE = SITE "H17" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "K15" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "N14" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "R18" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "V17" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "U17" LEVEL 1;
+COMP "led<7>" LOCATE = SITE "U16" LEVEL 1;
+COMP "btnd" LOCATE = SITE "P18" LEVEL 1;
+COMP "btnu" LOCATE = SITE "M18" LEVEL 1;
+COMP "rst" LOCATE = SITE "N17" LEVEL 1;
+SCHEMATIC END;
+

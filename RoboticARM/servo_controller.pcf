@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Jan 11 21:17:45 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "btnd" LOCATE = SITE "P18" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "J15" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "L16" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "btnu" LOCATE = SITE "M18" LEVEL 1;
+COMP "servos<0>" LOCATE = SITE "C17" LEVEL 1;
+COMP "servos<1>" LOCATE = SITE "D18" LEVEL 1;
+COMP "servos<2>" LOCATE = SITE "E18" LEVEL 1;
+COMP "servos<3>" LOCATE = SITE "G17" LEVEL 1;
+COMP "rst" LOCATE = SITE "N17" LEVEL 1;
+SCHEMATIC END;
+

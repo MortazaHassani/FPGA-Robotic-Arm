@@ -1,0 +1,75 @@
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o servo_controller_map.ncd servo_controller.ngd servo_controller.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o servo_controller_map.ncd servo_controller.ngd servo_controller.pcf 
+par -w -intstyle ise -ol high -mt off servo_controller_map.ncd servo_controller.ncd servo_controller.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml servo_controller.twx servo_controller.ncd -o servo_controller.twr servo_controller.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f servo_controller.ut servo_controller.ncd 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o servo_controller_map.ncd servo_controller.ngd servo_controller.pcf 
+par -w -intstyle ise -ol high -mt off servo_controller_map.ncd servo_controller.ncd servo_controller.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml servo_controller.twx servo_controller.ncd -o servo_controller.twr servo_controller.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f servo_controller.ut servo_controller.ncd 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o servo_controller_map.ncd servo_controller.ngd servo_controller.pcf 
+par -w -intstyle ise -ol high -mt off servo_controller_map.ncd servo_controller.ncd servo_controller.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml servo_controller.twx servo_controller.ncd -o servo_controller.twr servo_controller.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f servo_controller.ut servo_controller.ncd 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o servo_controller_map.ncd servo_controller.ngd servo_controller.pcf 
+par -w -intstyle ise -ol high -mt off servo_controller_map.ncd servo_controller.ncd servo_controller.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml servo_controller.twx servo_controller.ncd -o servo_controller.twr servo_controller.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f servo_controller.ut servo_controller.ncd 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o servo_controller_map.ncd servo_controller.ngd servo_controller.pcf 
+par -w -intstyle ise -ol high -mt off servo_controller_map.ncd servo_controller.ncd servo_controller.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml servo_controller.twx servo_controller.ncd -o servo_controller.twr servo_controller.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f servo_controller.ut servo_controller.ncd 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o servo_controller_map.ncd servo_controller.ngd servo_controller.pcf 
+par -w -intstyle ise -ol high -mt off servo_controller_map.ncd servo_controller.ncd servo_controller.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml servo_controller.twx servo_controller.ncd -o servo_controller.twr servo_controller.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f servo_controller.ut servo_controller.ncd 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o servo_controller_map.ncd servo_controller.ngd servo_controller.pcf 
+par -w -intstyle ise -ol high -mt off servo_controller_map.ncd servo_controller.ncd servo_controller.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml servo_controller.twx servo_controller.ncd -o servo_controller.twr servo_controller.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f servo_controller.ut servo_controller.ncd 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o servo_controller_map.ncd servo_controller.ngd servo_controller.pcf 
+par -w -intstyle ise -ol high -mt off servo_controller_map.ncd servo_controller.ncd servo_controller.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml servo_controller.twx servo_controller.ncd -o servo_controller.twr servo_controller.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f servo_controller.ut servo_controller.ncd 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o servo_controller_map.ncd servo_controller.ngd servo_controller.pcf 
+par -w -intstyle ise -ol high -mt off servo_controller_map.ncd servo_controller.ncd servo_controller.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml servo_controller.twx servo_controller.ncd -o servo_controller.twr servo_controller.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f servo_controller.ut servo_controller.ncd 
+xst -intstyle ise -ifn "C:/M8/bitcounter/servo_controller.xst" -ofn "C:/M8/bitcounter/servo_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 servo_controller.ngc servo_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o servo_controller_map.ncd servo_controller.ngd servo_controller.pcf 
+par -w -intstyle ise -ol high -mt off servo_controller_map.ncd servo_controller.ncd servo_controller.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml servo_controller.twx servo_controller.ncd -o servo_controller.twr servo_controller.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f servo_controller.ut servo_controller.ncd 
